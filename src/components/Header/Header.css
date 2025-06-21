@@ -1,0 +1,26 @@
+.Header {
+    background-color: #0c3c78;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.title img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.title h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
