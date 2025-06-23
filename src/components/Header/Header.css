@@ -1,9 +1,11 @@
 .Header {
     background-color: #0c3c78;
     color: white;
-    padding: 20px;
+    padding: 20px 40px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .title {
@@ -23,4 +25,17 @@
 .title h4 {
     font-size: 24px;
     font-weight: bold;
+}
+.weather{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.weather img{
+    width: 50px;
+    height: 50px;
+}
+.weather span {
+    font-size: 24px;
+    text-align: center;
 }

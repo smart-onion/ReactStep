@@ -1,0 +1,9 @@
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.darkTheme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
