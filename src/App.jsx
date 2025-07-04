@@ -1,11 +1,11 @@
-import {MyForm} from "./components/Forms/MyForm.jsx";
+import {DateTime} from "./components/DateTime/DateTime.jsx"
 import './App.css'
 
 function App() {
 
     return (
         <>
-            <MyForm />
+            <DateTime />
         </>
     );
 }
