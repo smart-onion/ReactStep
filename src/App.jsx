@@ -1,13 +1,13 @@
 import {DateTime} from "./components/DateTime/DateTime.jsx"
 import './App.css'
+import {Cart} from "./components/Cart/Cart.jsx"
 
-function App() {
+export default function App() {
+    let arr = [1,2,3];
 
     return (
         <>
-            <DateTime />
+            <Cart items={arr}/>
         </>
     );
 }
-
-export default App
