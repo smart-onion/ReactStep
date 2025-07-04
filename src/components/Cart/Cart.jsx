@@ -6,8 +6,12 @@ import { Tooltip } from "../ui/tooltip"
 
 export function Cart(props){
 
+    if(!props.items || props.items.length <= 0){
+        return (<CartEmpty/>);
+    }
     return (
         <>
+
             <Menu.Root>
                 <Menu.Trigger>
                     <Tooltip
